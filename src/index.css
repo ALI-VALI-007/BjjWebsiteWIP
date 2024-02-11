@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    max-width: 100%;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.flexBox{
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.Schedule{
+    width: auto;
+    height: auto;
+}
+
+.welcomeBanner{
+    position: relative;
+}
+
+.Banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-size: 55px;
+    font-weight: 600px;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MeetUs{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.MeetUsTxt{
+    margin-right: 250px;
+    margin-left: 750px;
+    background-color: #91ABC0;
+    height: 800px;
+    border-radius: 45px;
+    padding: 20px;
+}
+
+.MeetusTxtTitle{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+    font-size: 68px;
+}
+
+.MeetusTxtsubTitle{
+    justify-content: center;
+    display: flex;
+    overflow-x: hidden;
+    font-size: 60px;
+}
+
+.MeetusTxtBody{
+    font-size: 23px;
+}
+
+.MeetUsVid{
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 45px;
+    height: 800px;
+    width: auto;
+    float: left;
+}
+
+.Competition{
+    margin-top: 200px;
+    background-color: #D8DBE2;
+    margin-bottom: 150px;
+    padding: 50px;
+    border-radius: 45px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.CompTxt{
+    text-align: center;
+    border-radius: 45px;
+    padding: 20px;
+}
+
+.compPic{
+    display: flex;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    border-radius: 45px;
+    justify-content: center;
+}
+
+.indivCompPic{
+    width: auto;
+    height: 300px;
+    border-radius: 45px;
+    margin-inline: 15px;
+}
+
+.NavBar{
+    border-bottom-style:solid;
+    border-width: 10px;
+    background-color: #B5C3D1;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navButton {
+  appearance: none;
+  background-color: #B5C3D1;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  height: 45px;
+  width: 200px;
+}
+
+.navButton:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #A3B7C9;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.navButton:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.navButton:after {
+  background-color: #4A7B9D;
+}
+
+.navButton span {
+  z-index: 1;
+  position: relative;
+}
+
+.logo{
+    margin-right: 50px;
+    height: 40px;
+    width: auto;
+    bottom: 0;
+    right: -50px;
+    display: inline-block;
+}
+
+.Footer{
+    border-top-style:solid;
+    border-width: 3.5px;
+    background-color: #B5C3D1;
+}
