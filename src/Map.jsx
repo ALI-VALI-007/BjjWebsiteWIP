@@ -2,7 +2,7 @@ import React from "react";
 import { GoogleMap, Marker } from "@react-google-maps/api";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
-const apiKey = "AIzaSyDRaoZWvJ5aeVIKBn60pDpN5Fx3eMk6FWM";
+const apiKey = "a";
   const defaultProps = {
     center: {
       lat: 10.99835602,
